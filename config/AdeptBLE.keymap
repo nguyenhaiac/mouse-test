@@ -51,7 +51,7 @@
     default_layer {
       bindings = <
         &ltm BLTH MB4 &ltm DEVICE MB5 &mto SCRLM SNIPE &lhm SCRLM RCLK
-        &mkp LCLK                                      &lhm SCRLM MCLK
+        &mkp LCLK                                      &mkp MCLK
       >;
     };
     scroll_tap_layer {
