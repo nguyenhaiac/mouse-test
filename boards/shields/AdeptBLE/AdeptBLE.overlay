@@ -90,7 +90,7 @@
         reg = <0>;
         spi-max-frequency = <2000000>;
         irq-gpios = <&xiao_d 10 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
-        cpi = <800>;
+        cpi = <600>;
         evt-type = <INPUT_EV_REL>;
         x-input-code = <INPUT_REL_X>;
         y-input-code = <INPUT_REL_Y>;
@@ -105,7 +105,7 @@
 
     scroll {
         layers = <SCRLM SCRLH>;
-        input-processors = <&zip_xy_swap_mapper>, <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 15>, <&zip_xy_to_scroll_mapper>;
+        input-processors = <&zip_xy_swap_mapper>, <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 20>, <&zip_xy_to_scroll_mapper>;
     };
     snipe {
         layers = <SNIPE>;
