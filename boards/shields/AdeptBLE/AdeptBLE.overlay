@@ -105,7 +105,7 @@
 
     default {
         layers = <DEFAULT>;
-        input-processors = <&zip_xy_swap_mapper>, <&zip_xy_scaler 1 30>;
+        input-processors = <&zip_xy_swap_mapper>, <&zip_xy_scaler 1 5>;
     };
 
     scroll {
@@ -114,7 +114,7 @@
     };
     snipe {
         layers = <SNIPE>;
-        input-processors = <&zip_xy_swap_mapper>, <&zip_xy_scaler 1 4>;
+        input-processors = <&zip_xy_swap_mapper>, <&zip_xy_scaler 1 8>;
     };
   };
 }; 
