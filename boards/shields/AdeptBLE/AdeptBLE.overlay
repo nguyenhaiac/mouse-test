@@ -103,7 +103,7 @@
     device = <&trackball>;
     input-processors = <&zip_xy_swap_mapper>;
 
-    scroll {
+    default {
         layers = <DEFAULT>;
         input-processors = <&zip_xy_swap_mapper>, <&zip_xy_scaler 1 30>;
     };
