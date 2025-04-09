@@ -104,11 +104,11 @@
     input-processors = <&zip_xy_swap_mapper>;
     default {
         layers = <DEFAULT>;
-        input-processors = <&zip_xy_swap_mapper>, <&zip_xy_scaler 1 3>;
+        input-processors = <&zip_xy_swap_mapper>, <&zip_xy_scaler 1 4>;
     };
     scroll {
         layers = <SCRLM SCRLH>;
-        input-processors = <&zip_xy_swap_mapper>, <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 15>, <&zip_xy_to_scroll_mapper>;
+        input-processors = <&zip_xy_swap_mapper>, <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>, <&zip_xy_scaler 1 30>, <&zip_xy_to_scroll_mapper>;
     };
     snipe {
         layers = <SNIPE>;
