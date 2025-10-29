@@ -50,8 +50,8 @@
     compatible = "zmk,keymap";
     default_layer {
       bindings = <
-        &ltm BLTH MB4 &ltm DEVICE MB5 &mto SCRLM SNIPE &lhm SCRLM RCLK
-        &mkp LCLK                                      &mkp MCLK
+        &mkp MCLK  &lhm SCRLM RCLK &mto SCRLM SNIPE &lhm SCRLM RCLK
+        &mkp RCLK                                      &mkp LCLK
       >;
     };
     scroll_tap_layer {
